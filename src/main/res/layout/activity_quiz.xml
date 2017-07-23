@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_quiz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    tools:context="com.example.asuspc.multiple_choice.QuizActivity"
+
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginBottom="40dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score!"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/score_text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/score"
+        android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="157dp"
+        android:layout_height="53dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/po"
+        android:layout_weight="0.50" />
+
+    <TextView
+    android:layout_width="348dp"
+    android:layout_height="29dp"
+    android:text="This card represent what?"
+    android:textSize="20sp"
+    android:padding="8dp"
+    android:layout_marginBottom="40dp"
+    android:id="@+id/question"
+        android:layout_weight="0.39" />
+
+    <Button
+        android:layout_width="347dp"
+        android:layout_height="33dp"
+        android:text="Lumberjack"
+        android:background="#0091EA"
+        android:textColor="#fff"
+        android:padding="8dp"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/choice1"
+        android:layout_weight="0.02" />
+
+    <Button
+        android:layout_width="348dp"
+        android:layout_height="37dp"
+        android:text="Witch"
+        android:background="#0091EA"
+        android:textColor="#fff"
+        android:padding="8dp"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/choice2"/>
+
+    <Button
+        android:layout_width="346dp"
+        android:layout_height="37dp"
+        android:text="Knight"
+        android:background="#0091EA"
+        android:textColor="#fff"
+        android:padding="8dp"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/choice3"/>
+
+    <Button
+        android:id="@+id/choice4"
+        android:layout_width="343dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="24dp"
+        android:background="#0091EA"
+        android:padding="8dp"
+        android:text="Fire Spirit"
+        android:textColor="#fff" />
+
+</LinearLayout>
+
+
+
+

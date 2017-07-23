@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_results"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sea"
+    tools:context="com.example.asuspc.multiple_choice.QuizActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:padding="16dp"
+        android:textColor="#000"
+        android:fontFamily="Georgia"
+        android:layout_margin="16dp"
+        android:id="@+id/grade"
+        android:text="Congratulations ^_^"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:padding="16dp"
+        android:textColor="#000"
+        android:fontFamily="Georgia"
+        android:id="@+id/thanks"
+        android:text="Thank You for enjoying the quiz!"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="123dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:padding="16dp"
+        android:textColor="#000"
+        android:fontFamily="Georgia"
+        android:id="@+id/outOf"
+        android:text="You scored 8 out of 9"
+        android:layout_below="@+id/grade"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:id="@+id/retry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Retry"
+        android:padding="8dp"
+        android:textColor="#1e2538"
+        android:background="#eee8aa"
+        android:textSize="18sp"
+        android:fontFamily="Georgia"
+        android:layout_marginBottom="67dp"
+        android:layout_above="@+id/thanks"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
